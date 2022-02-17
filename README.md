@@ -12,7 +12,7 @@ The pattern of the REST endpoint is as follows:
 
 http://host:port/change/case/{caseType}/{val}
 
-Following caseTypes are supported to change:
+Following caseTypes are supported to change (Path variable is case-insensitive):
 - ###### Upper 
 - ###### Lower
 - ###### Title
@@ -20,17 +20,19 @@ Following caseTypes are supported to change:
 
 Thus, to change case of the word **bKash** to upperr case, please paste the following URL in your preferred browser's address bar:
 
-http://host:port/change/case/**upper**/**bKash**
+http://host:port/change/case/**upper**/**bKash%20Passthrough** 
 
 This will produce the following result:
 
-### BKASH
+### BKASH PASSTHROUGH
 
 We have following 2 profiles:
 1. **dev**, running at port **8090**
 2. **prod**, running at port **80**
 
-**NOTE**: For CI/CD deployment, we choose active profile to be prod
+**NOTE**: 
+1. For CI/CD deployment, we choose active profile to be prod
+2. The actual code for CI/CD is in 'develop' branch
 
 # Preparing the CI/CD
 Before we dive into detailed steps, for you here is a video, which is the motivation behind creating this Spring Boot project.
@@ -49,3 +51,11 @@ TBD
 ## Steps to define CI/CD workflow using GitHub Action
 TBD
 
+## See it in action
+Please click the link below to see the out of the application currently hosted in an AWS EC2 instance:
+
+[http://ec2-3-145-203-93.us-east-2.compute.amazonaws.com/change/case/upper/bKash%20Passthrough](http://ec2-3-145-203-93.us-east-2.compute.amazonaws.com/change/case/upper/bKash%20Passthrough "REST endpoint output")
+
+**NOTE**: This EC2 instance was being temporarily deployed and the output was as of February 17, 2022 and may not be available in the future.
+
+**Thank you for reading**
