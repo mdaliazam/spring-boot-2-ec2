@@ -18,7 +18,7 @@ Following caseTypes are supported to change (Path variable is case-insensitive):
 - ###### Title
 - ###### Sentence
 
-Thus, to change case of the word **bKash** to upperr case, please paste the following URL in your preferred browser's address bar:
+Thus, to change case of the word **bKash Passthrough** to upperr case, please paste the following URL in your preferred browser's address bar:
 
 http://host:port/change/case/**upper**/**bKash%20Passthrough** 
 
@@ -52,7 +52,7 @@ TBD
 TBD
 
 ## See it in action
-Please click the link below to see the out of the application currently hosted in an AWS EC2 instance:
+Please click the link below to see the output of the application currently hosted in an AWS EC2 instance:
 
 [http://ec2-3-145-203-93.us-east-2.compute.amazonaws.com/change/case/upper/bKash%20Passthrough](http://ec2-3-145-203-93.us-east-2.compute.amazonaws.com/change/case/upper/bKash%20Passthrough "REST endpoint output")
 
