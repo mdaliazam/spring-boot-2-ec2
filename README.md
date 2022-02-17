@@ -37,7 +37,11 @@ Before we dive into detailed steps, for you here is a video, which is the motiva
 
 This video is the latest one, so don't judge it by its cover and the total numbers of viewers/likes/dislikes, etc.
 
-[Click here to watch the video](https://www.youtube.com/watch?v=1-CKqngg6GY&t=1128s "Auto Deploy Spring Boot Project Using GitHub Actions to AWS EC2")
+<a href='https://www.youtube.com/watch?v=1-CKqngg6GY&t=1128s' target='_blank'>
+    <img alt="Auto Deploy Spring Boot Project Using GitHub Actions to AWS EC2"
+        height="400"
+        src="https://raw.githubusercontent.com/mdaliazam/spring-boot-2-ec2/develop/auto-deploy-spring-boot-using-github-2-aws-ec2.png"
+</a>
 
 ## Steps to launch an AWS EC2 instance 
 TBD
