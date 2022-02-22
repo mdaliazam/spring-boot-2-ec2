@@ -23,7 +23,7 @@ public class ChangeCaseController {
             return "Result: " + val;
         }
 
-        return selectedCaseType.changeCase(val);
+        return "Result " + selectedCaseType.changeCase(val);
 
     }
 
