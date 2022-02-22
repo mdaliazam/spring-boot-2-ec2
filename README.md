@@ -20,7 +20,7 @@ Following caseTypes are supported to change (Path variable is case-insensitive):
 
 Thus, to change case of the word **bKash Passthrough** to upperr case, please paste the following URL in your preferred browser's address bar:
 
-http://host:port/change/case/**upper**/**bKash%20Passthrough** 
+http://host:port/change/case/upper/bKash%20Passthrough
 
 This will produce the following result:
 
