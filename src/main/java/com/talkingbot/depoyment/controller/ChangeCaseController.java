@@ -20,7 +20,7 @@ public class ChangeCaseController {
 
         CaseType selectedCaseType = CaseType.valueOf(caseType.toUpperCase(Locale.ROOT));
         if (selectedCaseType == null) {
-            return val;
+            return "Result: " + val;
         }
 
         return selectedCaseType.changeCase(val);
