@@ -23,7 +23,7 @@ public class ChangeCaseController {
             return "Result: " + val;
         }
 
-        return "Changed case result is as follows:  + selectedCaseType.changeCase(val);
+        return "Changed case result is as follows: " + selectedCaseType.changeCase(val);
 
     }
 
